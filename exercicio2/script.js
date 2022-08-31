@@ -6,15 +6,9 @@ console.log(arrayNumber.length)
 console.log(arrayString.length)
 console.log(arrayVariados.lenth)
 
-arrayNumber.splice(0,1)
-console.log(arrayNumber)
-
-arrayString.splice(1,1)
-console.log(arrayString)
-
-arrayVariados.splice(2,1)
-console.log(arrayVariados)
-
+console.log(arrayNumber[0])
+console.log(arrayString[1])
+console.log(arrayVariados[2])
 
 console.log(arrayNumber.includes(8))
 console.log(arrayVariados.includes("céu"))
